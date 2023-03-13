@@ -2,6 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+header, h1, .flecha {
+  background: linear-gradient(rgba(5, 7, 12 ,0.75), rgba(5, 7, 12, 0.75)),
+    url(./img/photo-1542831371-29b0f74f9713.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
 }
 ul {
   margin: 0;
@@ -14,21 +22,34 @@ li {
 }
 nav {
   height: 3rem;
-  background-color: grey;
 }
 nav, h1, h2, h4 {
   text-align: center;
 }
-h1, h4 {
-  background-color:cornflowerblue;
+h1 {
   margin: 0;
-  padding: 2rem 0;
+  padding: 4rem 0 1rem;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+hr {
+  margin: 0;
+}
+i {
+  margin: 0 50%;
 }
 .col {
   padding: 0;
   height: 10rem;
 }
+.flecha {
+  margin: 0;
+  padding: 3rem 0 1rem;
+}
+.carousel {
+  background-color: gainsboro;
+}
+
+
