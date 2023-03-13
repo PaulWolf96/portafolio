@@ -30,7 +30,7 @@ h1 {
   margin: 0;
   padding: 4rem 0 1rem;
 }
-a {
+nav a {
   text-decoration: none;
   color: white;
 }
@@ -40,7 +40,7 @@ hr {
 i {
   margin: 0 50%;
   position: relative;
-  animation: flecha 2s infinite;
+  animation: flecha 1.5s infinite;
 }
 @keyframes flecha {
   0%   {top: 5px;}
@@ -50,14 +50,14 @@ i {
 }
 .col {
   padding: 0;
-  height: 10rem;
+  height: 8rem;
 }
 .flecha {
   margin: 0;
   padding: 3rem 0 1rem;
 }
 .carousel {
-  background-color: gainsboro;
+  background-color: rgba(235, 235, 235, 0.705);
   box-shadow: 0 -3px 5px 1px rgb(172, 152, 152);
 }
 
